@@ -117,7 +117,7 @@ console.log(typeof age); // age is initially a string, using Number() to convert
 
 // IF ELSE IF AND ELSE structure with an example
 
-/*
+
 let nameInput = prompt("Enter your name");
 let idNumber = prompt("Enter your ID number");
 
@@ -134,7 +134,7 @@ function register(name, id) {
 }
 
 register(nameInput, idNumber);
-*/
+
 
 // TOOLTIP AND BREAKPOINT
 
@@ -208,6 +208,8 @@ CONCAT:  car.concat(car2) connect the arrays
 reverse: reverse a array 
 */
 
+
+/*EXAMPLE
 let product1 ={
     name:"ACER Swift",
     kathegor:"technology",
@@ -260,6 +262,8 @@ function writefilterproduct(products)
 
     })
 }
+
+*/
 
 
 
