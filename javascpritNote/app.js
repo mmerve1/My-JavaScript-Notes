@@ -210,58 +210,51 @@ reverse: reverse a array
 
 
 /*EXAMPLE
-let product1 ={
-    name:"ACER Swift",
-    kathegor:"technology",
-    cost:4.500
+let product1 = {
+    name: "ACER Swift",
+    category: "technology",
+    cost: 4.500
+};
+
+let product2 = {
+    name: "ACER Nitro5",
+    category: "technology",
+    cost: 7.500
+};
+
+let product3 = {
+    name: "ACER",
+    category: "technology",
+    cost: 5.100
+};
+
+let product4 = {
+    name: "LENOVO",
+    category: "technology",
+    cost: 4.500
+};
+
+let products = [product1, product2, product3, product4];
+let filterProducts = [];
+let giveName = prompt("Enter a name").toUpperCase();
+
+getFilterProduct(products);
+writeFilterProduct(filterProducts);
+
+function getFilterProduct(products) {
+    products.forEach(function (product) {
+        if (product.name.toUpperCase().includes(giveName, 0)) {
+            filterProducts.push(product);
+        }
+    });
 }
 
-let product2 ={
-    name:"ACER Nitro5",
-    kathegor:"technology",
-    cost:7.500
+function writeFilterProduct(products) {
+    products.forEach(function (product) {
+        console.log("|" + product.name + " " + product.cost + " " + product.category);
+    });
 }
 
-let product3={
-    name:"ACER",
-    kathegor:"technology",
-    cost:5.100
-}
-
-let product4 ={
-    name:"LENOVO",
-    kathegor:"technology",
-    cost:4.500
-
-}
-
-let products=[product1,product2,product3,product4];
-let filterproducts =[];
-let givename=prompt("enter a name");
-
-getFilterproduct(products);
-writefilterproduct(filterproducts);
-
-
-function getFilterproduct(products){
-products.forEach(function(product)
-{
-    if(product.name.toUpperCase.includes(givename.toUpperCase(),0))
-    {
-        filterproducts.push(product);
-    }
-});
-
-}
-
-function writefilterproduct(products)
-{
-    products.forEach(function(product)
-    {
-        console.log("|" +product.name + product.cost +product.kathegor);
-
-    })
-}
 
 */
 
